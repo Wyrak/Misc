@@ -4,6 +4,7 @@ public class Employee {
    public Employee(Integer id, Integer age, String gender, String fName, String lName){
        this.id = id;
        this.age = age;
+       
        this.gender = gender;
        this.firstName = fName;
        this.lastName = lName;
@@ -14,6 +15,7 @@ public class Employee {
    private String gender;
    private String firstName;
    private String lastName;
+   private String woonplaats;
  
    
  
